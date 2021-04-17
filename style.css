@@ -4,8 +4,37 @@ body{
     box-sizing: border-box;
 }
 .banner{
-    height: 100px;
     width: 100%;
-    background: #316C8B;
     text-align: center;
+    overflow: hidden;
+    background: linear-gradient(#1d61c9a1 40%, rgba(33, 33, 163, 0.7) 70%);
+    line-height: 100px;
+}
+.banner h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.contendor-textos{
+    height: 100%;
+}
+
+.grid-container{
+    width: 90%;
+    margin: 40px 40px;
+    display: grid;
+    column-gap: 30px;
+    padding-bottom: 50px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(180px,380px));
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0,0.2);
+    transition: 0.3s;
+}
+.container{
+    padding: 20px 16px;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0, 0,0.5);
 }
