@@ -5,10 +5,15 @@ body{
 }
 .banner{
     width: 100%;
+    height: 500px;
     text-align: center;
     overflow: hidden;
-    background: linear-gradient(#1d61c9a1 40%, rgba(33, 33, 163, 0.7) 70%);
-    line-height: 100px;
+    background-image: linear-gradient(#1d61c9a1 40%, rgba(33, 33, 163, 0.7) 70%), url(image/header-forest.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    line-height: 500px;
 }
 .banner h1{
     font-size: 30px;
